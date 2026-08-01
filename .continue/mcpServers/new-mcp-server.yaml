@@ -1,0 +1,22 @@
+name: filesystem
+version: 0.0.1
+schema: v1
+
+mcpServers:
+  - name: filesystem
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "${workspaceFolder}"
+      - "E:\\Repo\\greenstag_www"
+    type: stdio
+  - name: Chrome DevTools
+    command: npx
+    args:
+      - "-y"
+      - "chrome-devtools-mcp@latest"
+
+
+
+    

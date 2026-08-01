@@ -1,0 +1,24 @@
+title: Greenstag
+email: contact@greenstag.im
+description: >-
+  Greenstag is a sustainable technology company focused on eco-friendly solutions.
+baseurl: ""
+url: "https://www.greenstag.im"
+twitter_username: greenstag
+github_username:  greenstag
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">Greenstag</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                    <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
+                    <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} Greenstag. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://twitter.com/greenstag" target="_blank">Twitter</a>
+                <a href="https://github.com/greenstag" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
