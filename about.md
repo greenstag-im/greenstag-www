@@ -21,14 +21,19 @@ title: About Us
     
     <div class="about-values">
       <h2>What we stand for</h2>
-      <ul>
-        <li><strong>Innovators:</strong> We challenge assumptions and rewrite expectations.</li>
-        <li><strong>Reengineering the status quo:</strong> Old patterns are redesigned for modern resilience.</li>
-        <li><strong>Strong foundations:</strong> Solid structure and clear architecture are non-negotiable.</li>
-        <li><strong>Detail-first:</strong> Every release is built with meticulous attention to detail.</li>
-        <li><strong>AI-led thinking:</strong> We pursue groundbreaking approaches to intelligent systems.</li>
-        <li><strong>Game innovation:</strong> A never-seen-before game concept is under development.</li>
-      </ul>
+      <div class="about-values-grid">
+        <ul>
+          <li><strong>Innovators:</strong> We challenge assumptions and rewrite expectations.</li>
+          <li><strong>Reengineering the status quo:</strong> Old patterns are redesigned for modern resilience.</li>
+          <li><strong>Strong foundations:</strong> Solid structure and clear architecture are non-negotiable.</li>
+          <li><strong>Detail-first:</strong> Every release is built with meticulous attention to detail.</li>
+          <li><strong>AI-led thinking:</strong> We pursue groundbreaking approaches to intelligent systems.</li>
+          <li><strong>Game innovation:</strong> A never-seen-before game concept is under development.</li>
+        </ul>
+        <div class="about-image">
+          <img src="/assets/greenstag-liquidmetalsq800.png" alt="Greenstag symbol" />
+        </div>
+      </div>
     </div>
   </div>
 </section>
