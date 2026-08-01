@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "minima";
+{
+  @import "minima";
 
 $background: #04030a;
 $surface: rgba(10, 14, 32, 0.92);
@@ -410,4 +411,5 @@ body::before {
   .contact-details {
     grid-template-columns: 1fr;
   }
+}
 }
