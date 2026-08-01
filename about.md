@@ -12,20 +12,22 @@ title: About Us
 <section class="about-content">
   <div class="container">
     <div class="about-text">
-      <p>Greenstag is a development studio operating at the intersection of sustainable systems and future-facing technology. We move deliberately, building in the background while our work remains under the radar.</p>
+      <p>Greenstag is a development company built to explore what’s possible when strong engineering, thoughtful systems, and ambitious product design converge.</p>
       
-      <p>Our focus is on crafting resilient digital experiences that respect the environment and embrace a cyberpunk aesthetic — not in spectacle, but in the intentional layering of form and function.</p>
+      <p>We operate with a bottom-up mindset, keeping architecture and documentation tightly coupled with code so every project is built for clarity, durability, and scale.</p>
       
-      <p>We are a small, distributed team of engineers, designers, and systems architects, aligned around purposeful development and careful stewardship of every project.</p>
+      <p>Our focus is on creating solid structure, evolving AI capabilities, and shaping a new, never-before-seen concept that remains in development.</p>
     </div>
     
     <div class="about-values">
-      <h2>Our core principles</h2>
+      <h2>What we stand for</h2>
       <ul>
-        <li><strong>Stealth:</strong> We keep our process quiet until the timing is right.</li>
-        <li><strong>Integrity:</strong> We design with clarity, honesty, and technical rigor.</li>
-        <li><strong>Resilience:</strong> We build systems that endure and adapt.</li>
-        <li><strong>Responsibility:</strong> We prioritize sustainable, intentional progress.</li>
+        <li><strong>Innovators:</strong> We challenge assumptions and rewrite expectations.</li>
+        <li><strong>Reengineering the status quo:</strong> Old patterns are redesigned for modern resilience.</li>
+        <li><strong>Strong foundations:</strong> Solid structure and clear architecture are non-negotiable.</li>
+        <li><strong>Detail-first:</strong> Every release is built with meticulous attention to detail.</li>
+        <li><strong>AI-led thinking:</strong> We pursue groundbreaking approaches to intelligent systems.</li>
+        <li><strong>Game innovation:</strong> A never-seen-before game concept is under development.</li>
       </ul>
     </div>
   </div>

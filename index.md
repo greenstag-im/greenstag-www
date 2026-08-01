@@ -4,12 +4,17 @@ title: Home
 ---
 
 <div class="hero">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/assets/greenstaglogo-White.png">
+    <source src="/assets/intro.mp4" type="video/mp4">
+  </video>
+
   <div class="hero-content">
     <span class="eyebrow">Greenstag</span>
-    <h1>Emerging in the shadows of the next generation.</h1>
-    <p>We are a new development studio shaping sustainable systems with a cyberpunk edge. For now, the network remains quiet.</p>
+    <h1>Uncovering the shadows and the unseen world around us.</h1>
+    <p>We develop with a different mindset, bottom up thinking with fresh innovation.</p>
     <a href="/contact" class="btn">Contact the node</a>
   </div>
+
   <div class="hero-footer">
     <p>Standby for the first release. Details available on an invitation-only basis.</p>
   </div>
@@ -19,16 +24,20 @@ title: Home
   <div class="container">
     <div class="feature-grid">
       <div class="feature-card">
-        <h3>Quiet innovation</h3>
-        <p>Crafting systems that balance digital ambition with responsible stewardship.</p>
+        <h3>Innovators</h3>
+        <p>Reengineering the status quo with fresh perspective and exacting craft.</p>
       </div>
       <div class="feature-card">
-        <h3>Hidden by design</h3>
-        <p>Our work is intentionally understated while the signal is still being tuned.</p>
+        <h3>Making it count</h3>
+        <p>Our work seeks to make a better world through strong systems and clear execution.</p>
       </div>
       <div class="feature-card">
-        <h3>Green foundations</h3>
-        <p>We explore sustainable practices and resilient infrastructure behind the scenes.</p>
+        <h3>Solid structure</h3>
+        <p>Creating strong foundations with architecture and documentation tightly coupled to code.</p>
+      </div>
+      <div class="feature-card">
+        <h3>New frontiers</h3>
+        <p>Groundbreaking AI approaches and a never-seen-before game concept are in development.</p>
       </div>
     </div>
   </div>
