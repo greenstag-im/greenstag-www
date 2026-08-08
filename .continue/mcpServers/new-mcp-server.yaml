@@ -9,7 +9,7 @@ mcpServers:
       - "-y"
       - "@modelcontextprotocol/server-filesystem"
       - "${workspaceFolder}"
-      - "E:\\Repo\\greenstag_www"
+      - "D:\\Repo\\GS\\greenstag_www"
     type: stdio
   - name: Chrome DevTools
     command: npx
