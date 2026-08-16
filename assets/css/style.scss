@@ -353,6 +353,7 @@ body::before {
 
 .about-values li:last-child {
   border-bottom: none;
+
 }
 
 .about-values strong,
@@ -367,6 +368,14 @@ body::before {
   color: $muted;
   line-height: 1.8;
 }
+
+.about-values p:hover{
+  color: #21a338;
+  line-height: 1.8;
+  transform: translateY(-8px);
+  border-color: rgba(124, 60, 255, 0.32);
+}
+
 
 .contact-details {
   display: grid;
