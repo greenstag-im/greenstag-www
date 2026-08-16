@@ -21,12 +21,9 @@ title: About
       <p>We are interested in the systems that influence outcomes. The structures that shape behaviour. The assumptions that become invisible through familiarity. The relationships that connect causes and consequences across technology, organisations, governance and society.</p>
       
       <p>While technology plays an important role in our work, technology itself is not our defining characteristic.</p>
-      
-      <p>We are more interested in why things work than merely how they work.</p>
-      
-      <p>More interested in understanding than appearances.</p>
-      
-      <p>More interested in foundations than trends.</p>
+      <p>- We are more interested in why things work than merely how they work.</p>
+      <p>- More interested in understanding than appearances.</p>
+      <p>- More interested in foundations than trends.</p>
     </div>
     
     <div class="about-values">

@@ -15,9 +15,7 @@ title: Contact
       <p>Every meaningful journey begins with a conversation.</p>
       
       <p>Ideas begin as conversations. Partnerships begin as conversations. New possibilities often begin with a single question asked at the right time.</p>
-      
       <p>If something within Green Stag's philosophy, approach or worldview resonates with you, we would be pleased to hear from you.</p>
-      
       <p>Whether you wish to discuss technology, systems, governance, knowledge, architecture or the future itself, thoughtful conversations are always welcome.</p>
     </div>
     
