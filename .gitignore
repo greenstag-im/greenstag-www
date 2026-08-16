@@ -190,6 +190,13 @@ models/
 checkpoints/
 outputs/
 
+# ============================================================
+# Release artefacts (keep committed)
+# ============================================================
+
+.github/release/
+.github/scratch/
+
 # Do not use these rules if models or test fixtures are intentionally
 # versioned through Git LFS.
 
@@ -208,3 +215,10 @@ Desktop.ini
 *~
 
 .continue
+"
+# ============================================================
+# Release artefacts (keep committed)
+# ============================================================
+
+.github/release/
+.github/scratch/
