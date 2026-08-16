@@ -8,7 +8,7 @@ $surface: rgba(10, 14, 32, 0.92);
 $surface-strong: rgba(10, 14, 32, 0.98);
 $accent: #7c3cff;
 $accent-2: #00f5ff;
-$text-color: #59595D;
+$text-color: #b7b7b8;
 $muted: #8fa8c4;
 $border: rgba(255, 255, 255, 0.12);
 
@@ -173,6 +173,9 @@ body::before {
   margin-bottom: 1.25rem;
   letter-spacing: -0.04em;
   text-shadow: 0 0 30px rgba(124, 60, 255, 0.22);
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.3s;
 }
 
 .hero p {
@@ -181,7 +184,11 @@ body::before {
   font-size: 1.1rem;
   color: $muted;
   line-height: 1.85;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.2s;
 }
+
 
 .hero-footer {
   position: relative;
@@ -189,6 +196,12 @@ body::before {
   margin-top: 2rem;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.95rem;
+}
+
+.hero .btn {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 2s;
 }
 
 .btn {
@@ -391,6 +404,20 @@ body::before {
 
 .social-links a:hover {
   color: $accent-2;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 900px) {
