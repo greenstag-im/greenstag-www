@@ -1,16 +1,16 @@
----
+"---
 ---
 
 {
-  @import "minima";
+  @import \"minima\";
 
-$background: #04030a;
+$background: #060807;
 $surface: rgba(10, 14, 32, 0.92);
 $surface-strong: rgba(10, 14, 32, 0.98);
-$accent: #7c3cff;
-$accent-2: #00f5ff;
-$text-color: #e8f7ff;
-$muted: #8fa8c4;
+$accent: #4CAF6A;
+$accent-2: #95E5B1;
+$text-color: #EDF2EF;
+$muted: #C9D4CD;
 $border: rgba(255, 255, 255, 0.12);
 
 * {
@@ -27,14 +27,14 @@ body {
   min-height: 100vh;
   font-family: 'Inter', system-ui, sans-serif;
   color: $text-color;
-  background: radial-gradient(circle at 20% 20%, rgba(124, 60, 255, 0.18), transparent 28%),
-              radial-gradient(circle at 80% 10%, rgba(0, 245, 255, 0.12), transparent 20%),
-              linear-gradient(180deg, #05030b 0%, #090a13 100%);
+  background: radial-gradient(circle at 20% 20%, rgba(76, 175, 106, 0.18), transparent 28%),
+              radial-gradient(circle at 80% 10%, rgba(149, 229, 177, 0.12), transparent 20%),
+              linear-gradient(180deg, #060807 0%, #0d1311 100%);
   background-attachment: fixed;
 }
 
 ::selection {
-  background: rgba(124, 60, 255, 0.35);
+  background: rgba(76, 175, 106, 0.35);
   color: white;
 }
 
@@ -43,8 +43,8 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.04), transparent 18%),
-                    linear-gradient(90deg, rgba(255, 255, 255, 0.02), transparent 40%, rgba(255, 255, 255, 0.02));
+  background-image: radial-gradient(circle at top left, rgba(76, 175, 106, 0.04), transparent 18%),
+                    linear-gradient(90deg, rgba(76, 175, 106, 0.02), transparent 40%, rgba(76, 175, 106, 0.02));
   opacity: 0.65;
   z-index: 0;
 }
@@ -126,8 +126,8 @@ body::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top center, rgba(124, 60, 255, 0.12), transparent 18%),
-              radial-gradient(circle at bottom center, rgba(0, 245, 255, 0.09), transparent 20%);
+  background: radial-gradient(circle at top center, rgba(76, 175, 106, 0.18), transparent 18%),
+              radial-gradient(circle at bottom center, rgba(149, 229, 177, 0.09), transparent 20%);
   pointer-events: none;
 }
 
@@ -153,7 +153,7 @@ body::before {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.35em;
-  color: rgba(124, 60, 255, 0.85);
+  color: rgba(76, 175, 106, 0.85);
   margin-bottom: 1rem;
   font-size: 0.85rem;
 }
@@ -164,7 +164,7 @@ body::before {
   line-height: 1.02;
   margin-bottom: 1.25rem;
   letter-spacing: -0.04em;
-  text-shadow: 0 0 30px rgba(124, 60, 255, 0.22);
+  text-shadow: 0 0 30px rgba(76, 175, 106, 0.22);
 }
 
 .hero p {
@@ -189,18 +189,18 @@ body::before {
   justify-content: center;
   padding: 0.95rem 2rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, $accent, $accent-2);
+  background: linear-gradient(135deg, #4CAF6A, #95E5B1);
   color: white;
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 0.02em;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  box-shadow: 0 18px 50px rgba(124, 60, 255, 0.16);
+  box-shadow: 0 18px 50px rgba(76, 175, 106, 0.16);
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 24px 65px rgba(124, 60, 255, 0.22);
+  box-shadow: 0 24px 65px rgba(76, 175, 106, 0.22);
 }
 
 .features {
@@ -224,7 +224,7 @@ body::before {
 
 .feature-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(124, 60, 255, 0.32);
+  border-color: rgba(76, 175, 106, 0.32);
 }
 
 .feature-card h3 {
@@ -264,13 +264,13 @@ body::before {
 }
 
 .about-hero {
-  background: radial-gradient(circle at top center, rgba(124, 60, 255, 0.18), transparent 18%),
-              linear-gradient(180deg, rgba(3, 4, 12, .98), rgba(5, 6, 20, .95));
+  background: radial-gradient(circle at top center, rgba(76, 175, 106, 0.18), transparent 18%),
+              linear-gradient(180deg, rgba(4, 4, 11, .98), rgba(6, 8, 23, .95));
 }
 
 .contact-hero {
-  background: radial-gradient(circle at top center, rgba(0, 245, 255, 0.16), transparent 18%),
-              linear-gradient(180deg, rgba(3, 4, 12, .98), rgba(5, 6, 20, .95));
+  background: radial-gradient(circle at top center, rgba(149, 229, 177, 0.16), transparent 18%),
+              linear-gradient(180deg, rgba(4, 4, 11, .98), rgba(6, 8, 23, .95));
 }
 
 .about-hero h1,
@@ -278,7 +278,7 @@ body::before {
   font-family: 'Playfair Display', serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   color: white;
-  text-shadow: 0 0 30px rgba(0, 245, 255, 0.16);
+  text-shadow: 0 0 30px rgba(149, 229, 177, 0.16);
 }
 
 .about-content,
@@ -413,3 +413,4 @@ body::before {
   }
 }
 }
+"
