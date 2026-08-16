@@ -7,8 +7,6 @@ title: Home
   <video class="hero-video" autoplay muted playsinline poster="/assets/poster.png">
     <source src="/assets/intro.mp4" type="video/mp4">
   </video>
-
-
   <div class="hero-content">
     <span class="eyebrow">Green Stag</span>
     <h1>See More Clearly.</h1>
