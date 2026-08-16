@@ -14,11 +14,11 @@ title: Home
 
 Some are obvious. Most are not.
 
-We see the products people build, the organisations they create and the technologies they use. What often remains hidden are the relationships that connect them; the assumptions that shape them and the decisions that quietly influence the outcomes they produce.
+We see the products people build, the organisations they create and the technologies they use. What often remains hidden are the relationships that connect them; the assumptions that shape them and the decisions that quietly influence the outcomes they produce.</p>
 
-Green Stag exists because understanding matters.
+<p>Green Stag exists because understanding matters.</p>
 
-We believe that better decisions begin with better understanding. We believe that stronger foundations create more resilient futures. And we believe that curiosity remains one of the most powerful tools available to anyone seeking to improve the world around them.
+<p>We believe that better decisions begin with better understanding. We believe that stronger foundations create more resilient futures. And we believe that curiosity remains one of the most powerful tools available to anyone seeking to improve the world around them.
 
 This website is an invitation to explore those ideas.
 
