@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="hero">
-  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/assets/greenstaglogo-White.png">
+  <video class="hero-video" autoplay muted loop playsinline poster="/assets/greenstaglogo-White.png">
     <source src="/assets/intro.mp4" type="video/mp4">
   </video>
 
