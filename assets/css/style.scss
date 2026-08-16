@@ -1,8 +1,7 @@
-"---
+---
 ---
 
-{
-  @import \"minima\";
+@import "minima";
 
 $background: #060807;
 $surface: rgba(10, 14, 32, 0.92);
@@ -412,5 +411,4 @@ body::before {
     grid-template-columns: 1fr;
   }
 }
-}
-"
+
