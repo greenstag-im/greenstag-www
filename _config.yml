@@ -1,11 +1,11 @@
 title: Greenstag
 email: contact@greenstag.im
 description: >-
-  Greenstag is a development studio exploring sustainable systems through a quiet cyberpunk lens.
+  Greenstag is a development studio exploring sustainable systems through a root cause lens.
 baseurl: ""
 url: "https://www.greenstag.im"
-twitter_username: greenstag
-github_username:  greenstag
+twitter_username: greenstag-im
+github_username:  greenstag-im
 
 # Build settings
 markdown: kramdown
