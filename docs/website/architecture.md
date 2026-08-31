@@ -5,7 +5,7 @@ Version: 1.0
 Author: Cody
 
 Repository:
-greenstag_www
+greenstag-www
 
 Location:
 /docs/website/architecture.md

@@ -1,8 +1,8 @@
 # GS-WEB-004 Complete Summary
 
 **Delivery Docket:** GS-WEB-004 Architecture Team Delivery Docket
-**Repository:** https://github.com/greenstag-im/greenstag_www
-**Location:** D:\Repos\GS\greenstag_www
+**Repository:** https://github.com/greenstag-im/greenstag-www
+**Location:** D:\Repos\GS\greenstag-www
 **Status:** **COMPLETE**
 
 ---

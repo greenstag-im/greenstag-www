@@ -1,2 +1,2 @@
-# greenstag_www
+# greenstag-www
 git hub static site

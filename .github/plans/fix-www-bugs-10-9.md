@@ -5,8 +5,8 @@
 - **Issue #9:** Failure to find style page - 404 error on `/assets/css/style.css`
 
 ## Investigation Results (Verified)
-- ✅ **Preload file exists:** `D:\Repos\GS\greenstag_www\_layouts\default.html`
-- ✅ **CSS file exists:** `D:\Repos\GS\greenstag_www\assets\css\style.scss` (SCSS source)
+- ✅ **Preload file exists:** `D:\Repos\GS\greenstag-www\_layouts\default.html`
+- ✅ **CSS file exists:** `D:\Repos\GS\greenstag-www\assets\css\style.scss` (SCSS source)
 - ⚠️ **CSS path is correct** - 404 likely caused by SCSS not being compiled
 
 ## Risk Assessment (Updated)
@@ -39,7 +39,7 @@
 Replace unsupported `as="video"` with `as="video/mp4"` in default.html
 
 ### File to Modify
-- `D:\Repos\GS\greenstag_www\_layouts\default.html`
+- `D:\Repos\GS\greenstag-www\_layouts\default.html`
 
 ### Current Code
 ```html
@@ -66,7 +66,7 @@ Replace unsupported `as="video"` with `as="video/mp4"` in default.html
 Resolve 404 error for `/assets/css/style.css`
 
 ### Investigation Results
-- CSS file exists at: `D:\Repos\GS\greenstag_www\assets\css\style.scss`
+- CSS file exists at: `D:\Repos\GS\greenstag-www\assets\css\style.scss`
 - File is SCSS (Sass) not CSS
 - SCSS imports Minima theme: `@import "minima";`
 - Path `/assets/css/style.css` is correct
